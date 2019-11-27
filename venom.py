@@ -1,4 +1,6 @@
-# Coded : Zettamus
+#!usr/bin/python3.7
+# Coded : Zettamus©2019
+# Contact me on WA : 081247483775
 # Maaf, Codenya berantakan, h3h3
 # Mau recode? Ok, tapi jangan hapus nama author yg ada di atas_-
 
@@ -10,7 +12,7 @@ os=os.system
 os('dpkg --configure -a')
 os('clear')
 try:
-    versi='1.0'
+    versi='1.1'
     requp=requests.get('https://raw.githubusercontent.com/zettamus/backdoor/master/README.md').text
     if versi in str(requp):
         up='[99] Update '
