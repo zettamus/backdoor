@@ -129,7 +129,7 @@ elif zett in ['2','02']:
     os('pg_ctl -D $PREFIX/var/lib/postgresql start > /dev/null 2>&1')
     print('[!] Running msfconsole ')
     os('msfconsole')
-elif zett ==99:
+elif zett =='99':
     os('cd ..;rm -rf backdoor')
     os('cd ..;git clone https://github.com/zettamus/backdoor')
 elif zett in ['0','00']:
