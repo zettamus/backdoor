@@ -17,7 +17,7 @@ $ git clone https://github.com/zettamus/backdoor
 
 $ cd backdoor
 
-$ python venom.py
+$ python venom or ./venom
 
 # versi
 - v.1.2
