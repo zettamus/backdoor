@@ -20,6 +20,9 @@ $ cd backdoor
 $ python venom.py
 
 # versi
+- v.1.2
+
+Add windows and python backdoor
 
 - v.1.1
 
