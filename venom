@@ -76,7 +76,7 @@ if cek !=0:
     exit(tik(g+'['+C+ now("%X") +g+'] Now, you can run venom with command '+R+'venom'+g+' in anywhere'))
 tik(g+'['+C+time.strftime("%X")+g+'] Checking Metasploit')
 sleep(1)
-msf=os('which imsfconsole > /dev/null 2>&1')
+msf=os('which msfconsole > /dev/null 2>&1')
 if msf == 0:
     print(g+'['+C+ now("%X") +g+'] Metasploit Found')
     getpass(g+'['+C+now("%X")+g+'] Press ['+C+'Enter'+g+'] to Continue ')
